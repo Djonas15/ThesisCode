@@ -8,10 +8,10 @@ public class MultiplicationMission {
         Random random = new Random();
 
         // Display the instructions
-        System.out.println("Welcome to the Times Table Game!");
-        System.out.println("I will show you the multiplication table for a number of your choice.");
+        System.out.println("Welcome to Multiplication Mission!");
+        System.out.println("I will show you the multiplication table for a number of your choice.");//multipcand
         System.out.println("Then, you can take a quiz to test your knowledge.");
-
+         
         boolean playAgain = true;
         while (playAgain) {
             // Prompt the user for a number
@@ -32,6 +32,7 @@ public class MultiplicationMission {
                     System.out.println("Correct!");
                     correctAnswers++;
                 } else {
+                     
                     System.out.println("Incorrect. The correct answer is " + correctAnswer + ".");
                 }
             }
